@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Kankin";
+    font-style: normal;
+    src:
+            local("Kankin"),
+            url("Kankin.ttf") format("truetype"),
+}
+
+@font-face {
+    font-family: "Airport";
+    font-style: normal;
+    src:
+            local("Airport"),
+            url("Airport.ttf") format("truetype"),
+}
+
+body{
+    background: linear-gradient(to right, rgb(255, 248, 196), rgb(249, 176, 88));
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+}
+
+main{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.nazv{
+    font-family: 'Airport', Arial, sans-serif;
+    font-size: 400%;
+    color: rgb(0, 0, 0);
+    transform: skew(10deg, -10deg);
+    float: left;
+    margin: 75px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: blueviolet;
+}
+
+.container{
+    margin: 0;
+    background-color: rgb(254, 245, 176);
+    flex-grow: 1;
+    border-radius: 2cap;
+    border: 1px solid #aa4f0d;
+}
+
+.container-button{
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 300px;
+}
+
+.btn{
+    font-family: 'Kankin', Arial, sans-serif;
+    border: 3px solid #aa4f0d;
+    cursor: pointer;
+
+    background: linear-gradient( to right, rgb(200, 112, 25), rgba(255, 123, 0, 0.495),rgb(200, 112, 25) );
+    border-radius:1cap;
+    height: 70px;
+    font-size: 18px;
+    margin: 1px;
+}
+
+.btn:active{
+    outline: 3px solid rgb(0, 0, 0);
+}
+
+p{
+    text-indent: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.photo{
+    margin: 1% 10% 1% 1%;
+    opacity: 0.7;
+}

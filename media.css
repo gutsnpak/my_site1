@@ -1,0 +1,19 @@
+@media (max-width: 500px) {
+    header{
+        flex-direction: column-reverse;
+    }
+    .nazv{
+        font-size: 2rem;
+        transform: rotate(0deg);
+        margin: 10px 0 10px 0;
+        text-align: center;
+    }
+    main{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .container-button{
+        width: 90%;
+        margin: auto;
+    }
+}
